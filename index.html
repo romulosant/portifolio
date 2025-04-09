@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meu Portfólio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .header {
+      background-color: #02132D;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .project-card {
+      transition: transform 0.3s ease;
+    }
+    .project-card:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      background-color: #02132D;
+      color: white;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <div class="header">
+    <h1>Seu Nome</h1>
+    <p>Desenvolvedor Web | Frontend | Backend</p>
+  </div>
+
+  <!-- Sobre -->
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Sobre Mim</h2>
+    <p class="text-center">
+      Sou um desenvolvedor apaixonado por tecnologia. Tenho experiência com HTML, CSS, JavaScript, PHP, e estou sempre em busca de aprender mais. Criei projetos pessoais e acadêmicos que mostram minha dedicação e evolução como profissional.
+    </p>
+  </div>
+
+  <!-- Projetos -->
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Meus Projetos</h2>
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card project-card shadow">
+          <div class="card-body">
+            <h5 class="card-title">Calculadora com JavaScript</h5>
+            <p class="card-text">Projeto simples que realiza operações matemáticas básicas.</p>
+            <a href="#" class="btn btn-primary" target="_blank">Ver Projeto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card project-card shadow">
+          <div class="card-body">
+            <h5 class="card-title">Verificador de Ano Bissexto</h5>
+            <p class="card-text">Página que informa se um ano é bissexto usando JavaScript.</p>
+            <a href="#" class="btn btn-primary" target="_blank">Ver Projeto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card project-card shadow">
+          <div class="card-body">
+            <h5 class="card-title">Sistema de Cadastro</h5>
+            <p class="card-text">Sistema simples com HTML, CSS, PHP e banco de dados.</p>
+            <a href="#" class="btn btn-primary" target="_blank">Ver Projeto</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Contato -->
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Contato</h2>
+    <div class="text-center">
+      <p>Email: <strong>seuemail@gmail.com</strong></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/seu-perfil" target="_blank">linkedin.com/in/seu-perfil</a></p>
+      <p>GitHub: <a href="https://github.com/seuusuario" target="_blank">github.com/seuusuario</a></p>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="text-center">
+    <p>© 2025 - Desenvolvido por Seu Nome</p>
+  </footer>
+
+</body>
+</html>
